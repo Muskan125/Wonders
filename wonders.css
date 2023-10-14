@@ -153,6 +153,59 @@ html, body
   {
     flex-direction: row-reverse;
   }
+  footer .foot
+  {
+    background-color: #000000e1;
+    width: 100vmax;
+    height:27vmax;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+  }
+
+  footer .foot .fimg
+  {
+    width:24vmax;
+    height:17vmax;
+    position: relative;
+    top:3.5vh;
+    border-radius:200px;
+    margin-left: 3vw;
+   }
+  .fimg img
+  {
+    width: 100%;
+    height: 100%;
+  }
+  .foot .content
+  {
+    margin-right: 9vmax;
+  }
+  .content .content1
+  {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+    color: #fff;
+    font-size: 1.2vmax;
+  }
+  .content .content1 h1 
+  {
+    font-weight: 550;
+    letter-spacing: 2;
+  }
+  .reserved
+  {
+    width: 100vmax;
+    display: flex;
+    justify-content: center;
+    background-color: #000000e1;
+    color: #fff;
+    font-size:1.5vmax;
+  }
   @media (max-width:600px)
   {
     .intro
@@ -186,4 +239,14 @@ html, body
         width: 80vmax;
         font-size: 3vh;
     }
+    .content .content1
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        gap:3vh;
+    }
   }
+  
